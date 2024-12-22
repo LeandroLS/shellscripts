@@ -5,4 +5,4 @@
 ### Vim Files
 - `.vimrc`
 - `.zshrc`
-- `init.lua`
+- `init.vim`
