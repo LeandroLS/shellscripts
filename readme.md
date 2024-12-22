@@ -1,2 +1,8 @@
-1 - `chmod +x install-zsh.sh`
-2 - `./install-zsh.sh`
+### Install programs
+- `chmod +x install-zsh.sh`
+- `./install-zsh.sh`
+
+### Vim Files
+- `.vimrc`
+- `.zshrc`
+- `init.lua`
