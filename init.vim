@@ -11,10 +11,10 @@ let mapleader = " "                           " <Space> as leader
 nnoremap <leader>w :w<CR>                     " Save file with <Space>w
 nnoremap <leader>q :q<CR>                     " Save file with <Space>q
 
-" Move cursor to the right <leader>l
+" Move cursor to the right
 nnoremap <leader>l <C-w>l
 
-" Move cursor to the left <leader>h
+" Move cursor to the left
 nnoremap <leader>h <C-w>h
 
 " Open Telescope find_files
