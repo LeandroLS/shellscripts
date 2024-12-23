@@ -12,7 +12,7 @@ nnoremap <leader>w :w<CR>                     " Save file with <Space>w
 nnoremap <leader>q :q<CR>                     " Save file with <Space>q
 
 " Open Telescope find_files
-nnoremap <leader>p :Telescope find_files<CR>  
+nnoremap <leader>p :Telescope find_files<CR>
 
 call plug#begin()
 
