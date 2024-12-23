@@ -12,10 +12,10 @@ nnoremap <leader>w :w<CR>                     " Save file with <Space>w
 nnoremap <leader>q :q<CR>                     " Save file with <Space>q
 
 " Move cursor to the right <leader>l
-nnoremap <leader>l l
+nnoremap <leader>l <C-w>l
 
 " Move cursor to the left <leader>h
-nnoremap <leader>h h
+nnoremap <leader>h <C-w>h
 
 " Open Telescope find_files
 nnoremap <leader>p :Telescope find_files<CR>
