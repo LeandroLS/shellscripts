@@ -10,7 +10,6 @@ set clipboard+=unnamedplus
 let mapleader = " "                           " <Space> as leader
 nnoremap <leader>w :w<CR>                     " Save file with <Space>w
 nnoremap <leader>q :q<CR>                     " Save file with <Space>q
-nnoremap <leader>l :q<CR>                     " Save file with <Space>q
 
 " Move cursor to the right <leader>l
 nnoremap <leader>l l
