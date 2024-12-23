@@ -7,10 +7,12 @@ set expandtab
 set cursorline
 set clipboard+=unnamedplus
 
-let mapleader = " "             " <Space> as leader
-nnoremap <leader>w :w<CR>       " Save file with <Space>w
-nnoremap <leader>q :q<CR>       " Save file with <Space>q
+let mapleader = " "                           " <Space> as leader
+nnoremap <leader>w :w<CR>                     " Save file with <Space>w
+nnoremap <leader>q :q<CR>                     " Save file with <Space>q
 
+" Open Telescope find_files
+nnoremap <leader>p :Telescope find_files<CR>  
 
 call plug#begin()
 
@@ -20,7 +22,7 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
 
 call plug#end()
 
-"Ignore nome modules"
+"Ignore folders"
 lua << EOF
 require('telescope').setup {
   defaults = {
