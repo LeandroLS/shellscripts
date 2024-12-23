@@ -7,6 +7,11 @@ set expandtab
 set cursorline
 set clipboard+=unnamedplus
 
+let mapleader = " "             " <Space> as leader
+nnoremap <leader>w :w<CR>       " Save file with <Space>w
+nnoremap <leader>q :q<CR>       " Save file with <Space>q
+
+
 call plug#begin()
 
 " List your plugins here
