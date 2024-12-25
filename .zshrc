@@ -12,6 +12,9 @@ export NVM_DIR="$HOME/.nvm"
 # Path to neovim
 export PATH="$PATH:/opt/nvim-linux64/bin"  
 
+# Path to Go
+export PATH=$PATH:/usr/local/go/bin
+
 ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
